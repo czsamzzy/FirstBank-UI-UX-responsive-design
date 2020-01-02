@@ -203,6 +203,7 @@ section.services-col .card .card-body h5{
   color: #082c66;
   font-size: 20px;
   font-weight: 700;
+  font-style: italic;
 }
 
 
@@ -224,6 +225,352 @@ section.services-col .card .card-body a{
 
 
 
+
+/*---Media Queries --*/
+
+@media (max-width: 2560px) {
+
+
+  section.cover .navbar a img{
+    max-width: 400px;
+  }
+
+  section.cover .navbar .nav-item{
+    margin-left: 60px;
+  }
+  
+  section.cover .navbar .nav-item a{
+    font-size: 20px;
+    padding: 25px;
+  }
+  
+
+  section.cover .main .main-view .main-view-text{
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translate(10%, 50%);
+    text-align: left;
+}
+  
+  section.cover .main-view-text p{
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-size: 90px;
+  }
+  
+  section.cover .main-view-text a{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .new-nav-test a.nav-link{
+    margin: 15px;
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 5px 30px;
+    padding-top: 10px;
+    font-size: 2rem;
+  }
+
+  .tabs-nav .tab-content a{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  section.tabs-nav .tab-content .text-box-parent .text-box{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  section.tabs-nav .tab-content .text-box h1{
+    font-size: 60px;
+  }
+  
+  section.tabs-nav .tab-content .text-box p{
+    font-size: 25px;
+  }
+
+  section.tabs-nav .tab-content .image-box img{
+    margin: 0px;
+    min-height: 700px;
+    max-height: 600px;
+    width: 50vw;
+  }
+
+  section.services-col{
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  section.services-col .card img.card-imger-top{
+    height: 250px;
+  }
+
+  section.services-col .card .card-body img{
+    width: 80px;
+  }
+
+  section.services-col .card .card-body h5,
+section.services-col .card .card-body p{
+  line-height: 35px;
+}
+
+section.services-col .card .card-body h5{
+  font-size: 2.2rem;
+}
+
+section.services-col .card .card-body p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 70%;
+}
+
+section.services-col .card .card-body a{
+  
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+  
+
+
+
+}
+
+@media (max-width: 1440px) {
+  section.cover .navbar a img{
+    max-width: 200px;
+  }
+  
+  section.cover .navbar .nav-item{
+    text-transform: uppercase;
+    background-color: #d9a90b;
+    margin-left: 30px;
+  }
+  
+  section.cover .navbar .nav-item a{
+    color: #082c66;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 13px 10px;
+  }
+  
+  section.cover .main .main-view{
+    position: relative;
+  }
+  
+  section.cover .main .main-view .main-view-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0%, 50%);
+    text-align: left;
+  }
+  
+  section.cover .main-view-text p{
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-size: 50px;
+  }
+  
+  section.cover .main-view-text a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #d9a90b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+  }
+
+  .new-nav-test{
+    background-color: #000;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+  .new-nav-test a.nav-link{
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    margin-top: 40px;
+    text-decoration: none;
+    padding: 5px 30px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+.tabs-nav .tab-content{
+  padding: 0px 50px;
+}
+
+.tabs-nav .tab-content a{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+section.tabs-nav .tab-content .text-box h1{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+section.tabs-nav .tab-content .text-box p{
+  font-size: 15px;
+}
+
+section.tabs-nav .tab-content .image-box img{
+  margin: 0px;
+  min-height: 400px;
+  max-height: 350px;
+  width: stretch;
+}
+
+
+section.services-col .card{
+  border: 0px;
+  border-radius: 0px;
+  margin: 0px 40px;
+  padding: 0px;
+
+}
+
+section.services-col .card img.card-imger-top{
+  height: 150px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+section.services-col .card .card-body img{
+  width: 50px;
+}
+
+
+section.services-col .card .card-body h5,
+section.services-col .card .card-body p{
+  line-height: 15px;
+}
+
+
+section.services-col .card .card-body h5{
+  color: #082c66;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+section.services-col .card .card-body p{
+  color: #193a70;
+  font-size: 12px;
+  width: 70%;
+}
+
+section.services-col .card .card-body a{
+  color: #082c66;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+
+
+
+
+
+}
+
+@media (max-width: 1024px) {
+  section.cover .navbar a img{
+    max-width: 150px;
+  }
+
+  section.cover .navbar .nav-item a{
+    font-size: 10px;
+    padding: 12px;
+  }
+
+  section.cover .main-view-text p{
+    font-size: 30px;
+  }
+
+  section.cover .main-view-text a{
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .new-nav-test a.nav-link{
+    margin-top: 30px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    font-size: 0.8rem;
+  }
+
+  .tabs-nav .tab-content{
+    padding: 0px 0px;
+  }
+
+  .tabs-nav .tab-content a{
+    font-size: 10px;
+    padding: 10px 25px;
+  }
+
+  section.tabs-nav .tab-content .text-box h1{
+    font-size: 1.5rem;
+  }
+  
+  section.tabs-nav .tab-content .text-box p{
+    font-size: 0.7rem;
+  }
+
+  section.services-col .card{
+    border: 0px;
+    border-radius: 0px;
+    margin: 0px 30px;
+    padding: 0px;
+  
+  }
+
+  section.services-col .card .card-body a{
+    font-size: 13px;
+  }
+
+  section.services-col .card .card-body img{
+    margin-left: -15px;
+  }
+  
+
+
+
+
+
+
+
+
+
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -256,26 +603,24 @@ section.services-col .card .card-body a{
   }
 
 }
-
-
 @media (max-width: 768px) {
   section.cover .navbar{
     padding-right: 70px;
   }
 
   section.cover .main .main-view .main-view-text{
-    margin: 0;
+    margin: 0 15%;
     position: relative;
     top: 0%;
     left: 0%;
-    transform: translate(20%, 50%);
+    transform: translate(0%, 50%);
     text-align: left;
     width: 60%;
     justify-content: center;
   }
 
   section.cover .main-view-text p{
-    font-size: 35px;
+    font-size: 2.2rem;
   }
 
   section.cover .main-view-text a{
@@ -283,14 +628,22 @@ section.services-col .card .card-body a{
   }
 
   .new-nav-test a.nav-link{
-    margin: 2px;
+    margin: 0px;
     margin-top: 8px;
-    padding: 5px 20px;
+    padding: 0px 10px;
     padding-top: 10px;
+    font-size: 0.8rem;
   }
 
   .tabs-nav .tab-content{
     padding: 0px 0px;
+  }
+
+  section.tabs-nav .tab-content .image-box img{
+    margin: 0px;
+    min-height: 400px;
+    max-height: 350px;
+    width: stretch;
   }
 
   section.services-col{
@@ -311,24 +664,61 @@ section.services-col .card .card-body a{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   
 }
-@media (max-width: 576px) {
+
+@media (max-width: 740px) {
 
   section.cover .navbar{
-    padding: 20px;
+    padding: 0px  10px;
+  }
+
+  section.cover .navbar a img{
+    max-width: 150px;
+  }
+
+  section.cover .main .main-view .main-view-text{
+    top: 50%;
+    transform: translate(0%, 50%);
+    width: 60%;
+    margin: 0 20%;
+
+  }
+
+  section.tabs-nav .tab-content .text-box-parent .text-box{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+    text-align: center;
+    margin: 0 20%;
+    margin-bottom: 50px;
+  }
+
+  section.tabs-nav .tab-content .image-box img{
+    margin: 0px;
+    min-height: 350px;
+    max-height: 300px;
+    width: 100vw;
+  }
+
+
+  section.services-col{
+    padding: 0 25%;
+  }
+  
+
+
+
+
+
+}
+
+@media (max-width: 570px) {
+
+  section.cover .navbar{
+    padding: 0px  10px;
   }
 
   section.cover .navbar a img{
@@ -342,8 +732,15 @@ section.services-col .card .card-body a{
     left: 0%;
     transform: translate(0%, 50%);
     text-align: center;
-    width: 100%;
-    margin: 20% 0;
+    width: 80%;
+    margin: 0 10%;
+
+  }
+
+  section.cover .main-view-text p{
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 3rem;
   }
 
   section.tabs-nav .tab-content .text-box-parent .text-box{
@@ -374,32 +771,13 @@ section.services-col .card .card-body a{
 
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 400px) {
+  section.cover .main-view-text p{
+    margin-bottom: 35px;
+    font-size: 3rem;
+  }
 
 }
 
